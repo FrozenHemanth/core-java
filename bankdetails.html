@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bank Check Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+<form name="BankCheckForm">
+
+    <div>
+        <h1>Bank Check Details</h1>
+    </div>
+
+    <hr>
+
+    <div>
+        <i>Account Holder Name</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="text" name="accountName" id="accountNameId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>Bank Name</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="text" name="bankName" id="bankNameId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>Account Number</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="number" name="accountNumber" id="accountNumberId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>IFSC Code</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="text" name="ifscCode" id="ifscId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>Check Number</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="number" name="checkNumber" id="checkId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>Check Date</i>
+        <span>:</span>
+        <input type="date" name="checkDate" id="dateId">
+    </div>
+    <br>
+
+    <div>
+        <i>Amount</i>
+        <span>*</span>
+        <span>:</span>
+        <input type="number" name="amount" id="amountId" required>
+    </div>
+    <br>
+
+    <div>
+        <i>Upload Check Image</i>
+        <span>:</span>
+        <input type="file" name="checkImage">
+    </div>
+    <br>
+
+    <div>
+        <button>Verify</button>
+        <button type="reset">Clear</button>
+    </div>
+
+</form>
+
+</body>
+
+</html>
+
