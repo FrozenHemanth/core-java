@@ -5,6 +5,8 @@ import java.util.Arrays;
 
 public class dsalist {
     public static void main(String[] args) {
+        
+    }
 
         // Array example
         int[] arr = {10, 20, 30, 40, 50};
