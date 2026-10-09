@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Sighnup Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSP Practice - Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<a href="sighnup.jsp">Sighnup</a>
-<a href="sighnin.jsp">Sighin</a>
-<a href="feedback.jsp">Feedback</a>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">JSP Practice</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="jumbotron bg-white p-5 rounded shadow">
+                    <h1 class="display-4 mb-4">Welcome to JSP Practice</h1>
+                    <p class="lead mb-4">This is a practice project to learn JSP form handling with validation and Bootstrap styling.</p>
+                    <hr class="my-4">
+                    <p class="mb-4">Select a form below to get started:</p>
+
+                    <div class="d-grid gap-3">
+                        <a href="contact.jsp" class="btn btn-primary btn-lg">
+                            <i class="bi bi-envelope"></i> Contact Form
+                        </a>
+                        <a href="register.jsp" class="btn btn-success btn-lg">
+                            <i class="bi bi-person-plus"></i> Registration Form
+                        </a>
+                        <a href="proverb.jsp" class="btn btn-info btn-lg">
+                            <i class="bi bi-lightbulb"></i> Proverb Form
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2026 JSP Practice. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
